@@ -1,4 +1,10 @@
 def total_inc_dec(x):
+    if x==0:
+        return 1
+    
+    start=0
+    end=(10**x) -1
+        
     x=str(x)
     counter1=0
     counter2=0
@@ -14,13 +20,17 @@ def total_inc_dec(x):
         return "Nozoly"
     return "we don't know about them"
     
-cont=0
-for i in range(101,200):
-    if total_inc_dec(i)=="Nozoly" :
-        cont+=1
-        print("Nozoly: ",i)
-    if total_inc_dec(i)=="soody":
-        cont+=1
-        print("soody: " , i)
+# cont=0
+# for i in range(101,200):
+#     if total_inc_dec(i)=="Nozoly" :
+#         cont+=1
+#         print("Nozoly: ",i)
+#     if total_inc_dec(i)=="soody":
+#         cont+=1
+#         print("soody: " , i)
         
-print(cont)
+# print(cont)
+
+print(
+total_inc_dec(2)
+)
