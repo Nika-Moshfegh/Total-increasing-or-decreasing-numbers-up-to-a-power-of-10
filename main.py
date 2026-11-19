@@ -8,7 +8,7 @@ def total_inc_dec(x):
     x=str(x)
     counter1=0
     counter2=0
-    for i in range(0,len(x)-1):
+    for i in range(0,end):
         if x[i]>=x[i+1]:
             counter1+=1
         if x[i]<=x[i+1]:
@@ -31,6 +31,14 @@ def total_inc_dec(x):
         
 # print(cont)
 
+def  total_inc_dec2(x):
+    x=str(x)
+    
+    return x in "123456790"
+    
 print(
-total_inc_dec(2)
+total_inc_dec2(123)
 )
+
+
+
